@@ -11,7 +11,7 @@ spec:
   selector:
     # these labels are used to select pods
     matchLabels:
-      purpose: dp-demo
+      purpose: headless-svc-demo
       project: roboshop
   # pod definition
   template:
